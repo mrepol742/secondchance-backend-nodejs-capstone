@@ -1,0 +1,83 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #f4f4f4; /* Updated background color */
+}
+
+/* Create a pseudo-element for the background and blur */
+body::before {
+    content: '';
+    position: fixed; /* Fixed position to cover the entire viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/static/background-colors.jpg') no-repeat center center;
+    background-size: cover;
+    filter: blur(8px); /* Slightly reduced blur effect */
+    z-index: -1; /* Place it behind the content */
+}
+
+.content {
+    position: relative;
+    font-weight: 600;
+    z-index: 2; /* Higher z-index to ensure content is above the blurred background */
+    text-align: center;
+    color: #1a1a1a; /* Updated text color for better readability */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    border-radius: 10px; /* Rounded corners for the content area */
+}
+
+h1, h2 {
+    font-size: 4rem; /* Large font size for main heading */
+    color: #333; /* Darker text color for headings */
+    margin-bottom: 0.5em;
+
+    font-weight: 700;
+}
+
+.lead {
+    font-size: 1.5rem; /* Large font size for the quote */
+    color: #333; /* Dark text color for better readability */
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for legibility */
+}
+
+.btn-primary {
+    background-color: #1E90FF; /* Vibrant color for the button */
+    color: #FFFFFF; /* White text for contrast */
+    border: none;
+    padding: 1rem 2.5rem; /* Generous padding for a larger button */
+    border-radius: 30px; /* Rounded, but not fully pill-shaped */
+    font-size: 1.2rem; /* Larger font size for readability */
+    font-weight: 700; /* Bold font for the button text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #f50057; /* A lighter shade for interaction feedback */
+    transform: scale(1.05); /* Slightly enlarge button on hover/focus */
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem; /* Smaller font size for headings on mobile */
+    }
+    h2 {
+        font-size: 2.5rem; /* Smaller font size for subheadings on mobile */
+    }
+    .lead {
+        font-size: 1.25rem; /* Smaller font size for text on mobile */
+    }
+}

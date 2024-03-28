@@ -1,0 +1,44 @@
+.register-card {
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.register-card .form-label {
+    font-weight: 600;
+}
+
+.register-card input {
+    border-radius: 0.25rem;
+}
+
+.register-card .btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+.register-card .btn-primary {
+    background-color: #0056b3;
+    border: none;
+}
+
+.register-card .btn-secondary {
+    background-color: #dc3545;
+    border: none;
+}
+
+.register-card .text-primary {
+    color: #0056b3;
+}
+
+.register-card .text-secondary {
+    color: #6c757d;
+}
+
+/* Additional styles */
+a.text-primary:hover {
+    text-decoration: underline;
+}
+
+a.text-secondary:hover {
+    text-decoration: underline;
+}

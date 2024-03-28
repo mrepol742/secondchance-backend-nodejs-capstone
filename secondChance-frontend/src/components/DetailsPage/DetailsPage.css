@@ -1,0 +1,39 @@
+.image-placeholder-large {
+    width: 100%;
+    height: 400px;
+    /* Adjust the height for a larger image display */
+    position: relative;
+}
+
+.product-image-large {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensures the image covers the placeholder without stretching */
+}
+
+.no-image-available-large {
+    width: 100%;
+    height: 400px;
+    /* Match the height of the image placeholder */
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #666;
+    text-transform: uppercase;
+}
+
+
+.card-header {
+    background-color: #0275d8;
+    /* Set the background color to match the button */
+    color: white;
+    /* Ensure text color is white for better readability */
+}
+
+/* If you have specific styles for .details-title, keep them here */
+.details-title {
+    color: white;
+}

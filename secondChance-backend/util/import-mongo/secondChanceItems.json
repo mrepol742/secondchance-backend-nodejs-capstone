@@ -1,0 +1,473 @@
+{
+  "docs": [
+    {
+      "id": "875",
+      "name": "Lamp",
+      "category": "Kitchen",
+      "condition": "New",
+      "posted_by": "26872",
+      "zipcode": "94805",
+      "date_added": 1693267200,
+      "age_days": 400,
+      "age_years": 1.1,
+      "description": "A charming lamp that's been lighting up my reading nook...",
+      "image": "/images/lamp.jpeg",
+      "comments":[{
+            "author": "Olivia Parker",
+            "comment": "Wow, this looks great! I'm interested."
+            },
+            
+            {
+            "author": "David Thompson",
+            "comment": "I'll take it if it's still up for grabs."
+            },
+            
+            {
+            "author": "Emily Rodriguez",
+            "comment": "This is exactly what I've been looking for. Count me in!"
+            },
+            
+            {
+            "author": "Daniel Evans",
+            "comment": "Seems like a good deal. Let's discuss further."
+            }]
+    },
+    {
+      "id": "396",
+      "name": "Curtain",
+      "category": "Office",
+      "condition": "Older",
+      "posted_by": "26872",
+      "zipcode": "94504",
+      "date_added": 1686960000,
+      "age_days": 1073,
+      "age_years": 2.94,
+      "description": "Elegant, flowy curtains that have graced my living room windows...",
+      "image": "/images/curtains1.jpeg",
+      "comments":[
+          {
+              "author": "Sophia Campbell",
+              "comment": "I've been searching everywhere for something like this! Can't wait to make it mine."
+          },
+          {
+              "author": "Liam Martinez",
+              "comment": "Love the unique charm of preloved items. Definitely adding this to my collection."
+          },
+          {
+              "author": "Ava Turner",
+              "comment": "I appreciate the eco-friendly aspect of buying preloved. Count me in as well!"
+          }
+      ]
+    },
+    {
+      "id": "812",
+      "name": "Bookshelf",
+      "category": "Office",
+      "condition": "Like New",
+      "posted_by": "26872",
+      "zipcode": "94172",
+      "date_added": 1692403200,
+      "age_days": 1053,
+      "age_years": 2.88,
+      "description": "This sturdy, well-loved bookshelf has been my literary companion...",
+      "image": "/images/bookshelf3.jpeg",
+      "comments":[
+          {
+              "author": "Sophie Richardson",
+              "comment": "These curtains are exactly what I need to complete my room makeover. Love the pattern!"
+          },
+          {
+              "author": "Benjamin Garcia",
+              "comment": "I've been looking for affordable curtains for weeks. These look perfect!"
+          },
+          {
+              "author": "Emma Wilson",
+              "comment": "I adore the quality and design of these curtains. Can't wait to hang them up!"
+          },
+          {
+              "author": "Jackie Nguyen",
+              "comment": "Thank you for offering these curtains at such a reasonable price. I'll take them!"
+          },
+          {
+              "author": "Nathan Patel",
+              "comment": "These curtains would be a great addition to my home. Excited to bring them in!"
+          }
+      ]
+    },
+    {
+      "id": "386",
+      "name": "Curtain",
+      "category": "Living",
+      "condition": "Older",
+      "posted_by": "26872",
+      "zipcode": "94450",
+      "date_added": 1699315200,
+      "age_days": 1719,
+      "age_years": 4.71,
+      "description": "These curtains have been the backdrop of my study...",
+      "image": "/images/curtains2.jpeg",
+      "comments":[
+        {
+            "author": "Isabella Thompson",
+            "comment": "Absolutely love the color of these curtains! Can't wait to hang them up in my living room."
+        },
+        {
+            "author": "Ethan Wilson",
+            "comment": "These curtains are such a steal! Thank you for offering them at such an affordable price."
+        },
+        {
+            "author": "Avery White",
+            "comment": "The quality of these curtains is outstanding. Excited to give my room a makeover with them!"
+        }
+        ]
+    },
+    {
+      "id": "419",
+      "name": "Bookshelf",
+      "category": "Bedroom",
+      "condition": "Older",
+      "posted_by": "26872",
+      "zipcode": "94500",
+      "date_added": 1690675200,
+      "age_days": 430,
+      "age_years": 1.18,
+      "description": "A compact and practical bookshelf that's been a tiny library...",
+      "image": "/images/bookshelf1.jpeg",
+      "comments":[
+          {
+            "author": "Olivia Garcia",
+            "comment": "This bookshelf is such a charming find! I love the vintage character and it's the perfect size for my small apartment. Can't wait to fill it with all my favorite reads!"
+          },
+          {
+            "author": "Noah Davis",
+            "comment": "Thankful for this preloved gem! It's sturdy and well-maintained, and the price was unbeatable. Now I can finally organize my ever-growing book collection."
+          },
+          {
+            "author": "Mia Chen",
+            "comment": "Giving this preloved bookshelf a new home! It has so much potential and I'm excited to give it a fresh coat of paint and personalize it to match my style. It's a sustainable choice and a unique piece for my reading nook."
+          }
+        ]
+    },
+    {
+      "id": "420",
+      "name": "Bookshelf",
+      "category": "Bedroom",
+      "condition": "Older",
+      "posted_by": "26872",
+      "zipcode": "94500",
+      "date_added": 1689379200,
+      "age_days": 430,
+      "age_years": 1.18,
+      "description": "This bookshelf has been a fixture in my home office...",
+      "image": "/images/bookshelf2.jpeg",
+      "comments":[
+          {
+            "author": "Liam Henderson",
+            "comment": "This bookshelf has a story to tell, and I can't wait to be a part of its next chapter. It's got so much character and I love the idea of filling it with new stories."
+          },
+          {
+            "author": "Sophia Lee",
+            "comment": "The quality of this preloved bookshelf is amazing! They don't make them like this anymore. The craftsmanship is truly impressive, and I can tell it will last for many years to come."
+          },
+          {
+            "author": "William Jones",
+            "comment": "This unique bookshelf will definitely be a conversation starter in my living room. It's got such a distinct style, and I can't wait to share my favorite books with guests."
+          },
+          {
+            "author": "Emma Brown",
+            "comment": "This preloved bookshelf is so versatile! I'm not just using it for books, but also for displaying some plants and decorative pieces. It's the perfect addition to my office space."
+          },
+          {
+            "author": "David Miller",
+            "comment": "I've been searching for the perfect bookshelf for months, and I'm so happy I finally found it! This preloved piece is exactly what I was looking for, both in terms of style and size. Thank you for giving it a second life!"
+          }
+        ]
+    },
+    {
+      "id": "421",
+      "name": "Desk Chair",
+      "category": "Office Furniture",
+      "condition": "Like New",
+      "posted_by": "31567",
+      "zipcode": "90210",
+      "date_added": 1688083200,
+      "age_days": 400,
+      "age_years": 1.09,
+      "description": "This desk chair has been my companion during long work hours...",
+      "image": "/images/desk-chair.jpeg",
+      "comments":[
+          {
+            "author": "Sarah Jackson",
+            "comment": "This desk chair is a game-changer! So incredibly comfortable, even after hours spent working. My back feels so much better already."
+          },
+          {
+            "author": "Michael Lee",
+            "comment": "Finally found a desk chair that lives up to the hype! The support is fantastic, and I no longer experience any back pain while working. This chair has been a lifesaver!"
+          }
+        ]
+    },
+    {
+      "id": "422",
+      "name": "Coffee Table",
+      "category": "Living Room",
+      "condition": "Older",
+      "posted_by": "19876",
+      "zipcode": "10001",
+      "date_added": 1686787200,
+      "age_days": 600,
+      "age_years": 1.64,
+      "description": "This coffee table has served me well, holding countless cups of coffee...",
+      "image": "/images/coffee-table.jpeg",
+      "comments":
+          [
+          {
+          "author": "Chloe Bennett",
+          "comment": "Love that I'm giving a preloved coffee table a new life! It adds a unique touch to my living room and feels good knowing I'm making a sustainable choice. Plus, it's incredibly sturdy and spacious - perfect for coffee table books and board game nights!"
+          },
+          {
+          "author": "Alexander Young",
+          "comment": "This coffee table is the perfect blend of functionality and style! The sleek design complements my living room furniture beautifully, and the spacious surface area is perfect for displaying decorative items and hosting gatherings. It's exactly what I was looking for!"
+          },
+          {
+          "author": "Emily Garcia",
+          "comment": "So thrilled I stumbled upon this coffee table! It's the perfect size and style for my apartment, and it has a certain timeless charm I love. It reminds me of my grandmother's coffee table, and I can't wait to create new memories around it."
+          },
+          {
+          "author": "Daniel Walker",
+          "comment": "This coffee table is so versatile! I use it for everything from resting my laptop to displaying plants and magazines. The hidden storage compartment is a bonus - it helps me keep things organized and clutter-free. Overall, it's a practical and stylish addition to my living room."
+          }
+          ]
+    },
+    {
+      "id": "423",
+      "name": "Laptop Stand",
+      "category": "Office",
+      "condition": "Like New",
+      "posted_by": "14563",
+      "zipcode": "30303",
+      "date_added": 1685491200,
+      "age_days": 200,
+      "age_years": 0.55,
+      "description": "This laptop stand has been a lifesaver for my posture...",
+      "image": "/images/laptop-stand.jpeg",
+      "comments":
+          [
+          {
+          "author": "Maya Lopez",
+          "comment": "This laptop stand is a lifesaver! It's improved my posture significantly, reducing neck and back pain while I work. The adjustable height makes it perfect for different working positions, and the sleek design looks great on my desk."
+          },
+          {
+          "author": "Benjamin Clarke",
+          "comment": "Finally found a laptop stand that doesn't take up half my desk space! This one is compact and functional, allowing for better airflow and keeping my laptop cool. No more overheating worries while gaming!"
+          },
+          {
+          "author": "Hannah Kim",
+          "comment": "Multitasking master thanks to this laptop stand! I can now comfortably use my laptop alongside my external monitor, creating a more efficient and organized workspace. The stand also helps me maintain good eye level, preventing strain and fatigue."
+          }
+          ]
+    },
+    {
+      "id": "424",
+      "name": "Dining Table",
+      "category": "Kitchen",
+      "condition": "New",
+      "posted_by": "23789",
+      "zipcode": "94102",
+      "date_added": 1684195200,
+      "age_days": 800,
+      "age_years": 2.19,
+      "description": "This dining table has been the centerpiece of many family gatherings...",
+      "image": "/images/dining-table.jpeg",
+      "comments":
+      [
+        {
+        "author": "Sarah Jones",
+        "comment": "Love this table! Perfect size for my needs. Considering purchasing."
+        },
+        {
+        "author": "Matthew Brown",
+        "comment": "Beautiful craftsmanship! Adding to cart!"
+        }
+        ]
+    },
+    {
+      "id": "425",
+      "name": "Couch",
+      "category": "Living Room",
+      "condition": "Older",
+      "posted_by": "17890",
+      "zipcode": "90001",
+      "date_added": 1682899200,
+      "age_days": 1000,
+      "age_years": 2.74,
+      "description": "This couch has been a cozy spot for movie nights and lazy Sundays...",
+      "image": "/images/couch2.jpeg",
+      "comments":
+          [
+          {
+          "author": "Ava Williams",
+          "comment": "This couch looks incredibly inviting and comfortable! Can't wait to sink into it and relax after a long day."
+          },
+          {
+          "author": "Noah Miller",
+          "comment": "Obsessed with the clean lines and modern design of this couch. It would be the perfect statement piece for my living room!"
+          },
+          {
+          "author": "Sophia Garcia",
+          "comment": "The quality of the materials used in this couch seems top-notch. I'm looking for something that will last for years to come, and this seems like a perfect fit!"
+          },
+          {
+          "author": "Lucas Brown",
+          "comment": "This couch seems like it would be perfect for movie nights, reading, or just hanging out with friends and family. Its versatility is exactly what I need in a living room piece."
+          },
+          {
+          "author": "Emily Jones",
+          "comment": "The combination of style, comfort, and affordability is truly impressive. This couch is definitely at the top of my list!"
+          }
+          ]
+    },
+    {
+      "id": "426",
+      "name": "Office Desk",
+      "category": "Office",
+      "condition": "Older",
+      "posted_by": "27654",
+      "zipcode": "90211",
+      "date_added": 1681603200,
+      "age_days": 900,
+      "age_years": 2.47,
+      "description": "This office desk has been my workspace for years...",
+      "image": "/images/office-desk.jpeg",
+      "comments":
+      [
+          {
+          "author": "Olivia Chen",
+          "comment": "This desk is sleek and functional - perfect for maximizing my workspace! Love the clean lines and modern design."
+          },
+          {
+          "author": "Michael Thompson",
+          "comment": "Finally found a sturdy desk that can handle my heavy workload! The spacious surface area is ideal for multiple monitors and organizing my projects. Feeling productive already!"
+          },
+          {
+          "author": "Sarah Lee",
+          "comment": "This adjustable desk is a game-changer! Switching between sitting and standing throughout the day helps me stay energized and focused. Perfect for promoting healthy working habits."
+          }
+          ]
+    },
+    {
+      "id": "427",
+      "name": "TV Stand",
+      "category": "Living Room",
+      "condition": "Older",
+      "posted_by": "31567",
+      "zipcode": "90210",
+      "date_added": 1680307200,
+      "age_days": 700,
+      "age_years": 1.92,
+      "description": "This TV stand has held my entertainment system with ease...",
+      "image": "/images/tv-stand.jpeg",
+      "comments": [
+          {
+            "author": "Chloe Bennett",
+            "comment": "This desk is sleek and functional, perfect for maximizing my workspace! Love the clean lines and modern design."
+          },
+          {
+            "author": "Alexander Young",
+            "comment": "Finally found a sturdy desk that can handle my workload! The spacious surface area is ideal for multiple monitors and organizing my projects. Feeling productive already!"
+          },
+          {
+            "author": "Emily Garcia",
+            "comment": "This adjustable desk is a game-changer! Switching between sitting and standing throughout the day helps me stay energized and focused. Perfect for promoting healthy working habits."
+          },
+          {
+            "author": "Daniel Walker",
+            "comment": "This TV stand has the perfect amount of storage for all my entertainment essentials! Definitely considering it for my living room."
+          },
+          {
+            "author": "Maya Lopez",
+            "comment": "Love the sleek design and adjustable shelves! This TV stand would complement my living room decor beautifully. Adding to wishlist!"
+          }
+        ]
+    },
+    {
+      "id": "428",
+      "name": "Bed Frame",
+      "category": "Bedroom",
+      "condition": "Older",
+      "posted_by": "19876",
+      "zipcode": "10001",
+      "date_added": 1679011200,
+      "age_days": 1200,
+      "age_years": 3.29,
+      "description": "This bed frame has been a reliable support for many restful nights...",
+      "image": "/images/bed-frame.jpeg",
+      "comments": 
+          [
+            {
+              "author": "Liam Henderson",
+              "comment": "This bed frame is a dream come true! The simple yet elegant design adds a touch of sophistication to my bedroom. It's also incredibly sturdy and provides the perfect amount of support for a restful night's sleep."
+            },
+            {
+              "author": "Olivia Garcia",
+              "comment": "This adjustable bed frame is a lifesaver! Now I can easily elevate my head and legs, which is amazing for reading and relaxing in bed. The sleek design and comfortable fabric headboard make it a luxurious addition to my bedroom."
+            }
+          ]
+    },
+    {
+      "id": "429",
+      "name": "Side Table",
+      "category": "Living Room",
+      "condition": "Older",
+      "posted_by": "23789",
+      "zipcode": "94102",
+      "date_added": 1677715200,
+      "age_days": 1100,
+      "age_years": 3.01,
+      "description": "This side table has been a convenient spot for lamps and books...",
+      "image": "/images/side-table.jpeg",
+      "comments":
+      [
+          {
+            "author": "Ethan Wilson",
+            "comment": "This side table is the perfect size for my small living room. It adds a touch of modern style without taking up too much space. The built-in drawer is a bonus for storing odds and ends."
+          },
+          {
+            "author": "Avery White",
+            "comment": "Love the versatility of this side table! It's perfect for holding my morning coffee, displaying a lamp and some plants, or even doubling as a small workspace. The sturdy construction and beautiful finish make it a great value."
+          },
+          {
+            "author": "Isabella Thompson",
+            "comment": "This side table is a charming addition to my bedroom! The unique design and antique brass finish add a touch of personality to the space. It's the perfect spot for my reading lamp and a cozy blanket for snuggling up with a good book."
+          }
+        ]
+    },
+    {
+      "id": "430",
+      "name": "Filing Cabinet",
+      "category": "Office",
+      "condition": "Older",
+      "posted_by": "17890",
+      "zipcode": "90001",
+      "date_added": 1677715200,
+      "age_days": 1300,
+      "age_years": 3.56,
+      "description": "This filing cabinet has organized many documents over the years...",
+      "image": "/images/filing-cabinet.jpeg",
+      "comments":
+      [
+          {
+            "author": "David Miller",
+            "comment": "This filing cabinet is a lifesaver! It helps me keep my home office organized and clutter-free. The spacious drawers can hold all my important documents, and the lockable feature gives me peace of mind. It's a perfect blend of functionality and style."
+          },
+          {
+            "author": "Maria Rodriguez",
+            "comment": "Finally found a filing cabinet that doesn't break the bank! The affordable price makes it a great option for anyone looking to organize their workspace. The sleek design and durable construction make it a valuable addition to any home office or study area."
+          },
+          {
+            "author": "William Jones",
+            "comment": "This vintage filing cabinet adds a touch of charm to my home office! It's sturdy and well-maintained, and the classic design complements my other furniture beautifully. It's a sustainable choice and a unique piece that reflects my personality."
+          }
+        ]
+    }
+  ]
+}
