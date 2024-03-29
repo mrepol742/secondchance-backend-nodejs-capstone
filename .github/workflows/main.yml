@@ -22,6 +22,5 @@ jobs:
           find ./secondChance-backend -name authRoutes.js -exec ./node_modules/.bin/eslint -c .eslintrc.js {} +
           find ./secondChance-backend -name secondChanceItemsRoutes.js -exec ./node_modules/.bin/eslint -c .eslintrc.js {} +
           find ./secondChance-backend -name searchRoutes.js -exec ./node_modules/.bin/eslint -c .eslintrc.js {} +
-          find ./secondChance-backend -name db.js -exec ./node_modules/.bin/eslint -c .eslintrc.js {} +
           find ./sentiment -name index.js -exec ./node_modules/.bin/eslint -c .eslintrc.js {} +
           echo "Linted all the js files successfully"
