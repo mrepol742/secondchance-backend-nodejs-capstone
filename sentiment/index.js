@@ -1,6 +1,5 @@
 require('dotenv').config();
 const express = require('express');
-const axios = require('axios');
 const logger = require('./logger');
 const expressPino = require('express-pino-logger')({ logger });
 // Task 1: import the natural library
@@ -16,7 +15,6 @@ app.use(expressPino);
 // Define the sentiment analysis route
 // Task 3: create the POST /sentiment analysis
 app.post('/sentiment', async (req, res) => {
-
     // Task 4: extract the sentence parameter
     const { sentence } = req.query;
 
@@ -40,7 +38,7 @@ app.post('/sentiment', async (req, res) => {
         // Task 5: set sentiment to negative or positive based on score rules
         if (analysisResult < 0) {
             sentiment = "negative";
-        } else if (analysisResult == 0 && analysisResult >= 0.33) {
+        } else if (analysisResult === 0 && analysisResult >= 0.33) {
             sentiment = "neutral";
         } else {
             sentiment = "positive";
@@ -54,7 +52,7 @@ app.post('/sentiment', async (req, res) => {
     } catch (error) {
         logger.error(`Error performing sentiment analysis: ${error}`);
         // Task 7: if there is an error, return a HTTP code of 500 and the json {'message': 'Error performing sentiment analysis'}
-        res.status(500).json({'message': 'Error performing sentiment analysis'});
+        res.status(500).json({ 'message': 'Error performing sentiment analysis' });
     }
 });
 

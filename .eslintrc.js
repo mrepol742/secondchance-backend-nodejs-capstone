@@ -22,5 +22,12 @@ module.exports = {
     ecmaVersion: 'latest'
   },
   rules: {
+    "semi": "off",
+    "indent": "off",
+    "quotes": "off",
+    "no-multiple-empty-lines": "off",
+    'camelcase': "off",
+    "quote-props": "off",
+    "object-shorthand": "off"
   }
 }

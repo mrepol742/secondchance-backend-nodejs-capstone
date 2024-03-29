@@ -4,7 +4,7 @@ const router = express.Router();
 const bcryptjs = require("bcryptjs");
 const connectToDatabase = require('../models/db');
 const logger = require('../logger');
-const { body, validationResult } = require('express-validator');
+const { validationResult } = require('express-validator');
 
 const JWT_SECRET = `${process.env.JWT_SECRET}`;
 
@@ -31,13 +31,13 @@ router.post('/register', async (req, res) => {
             firstName: req.body.firstName,
             lastName: req.body.lastName,
             password: hash,
-            createdAt: new Date(),
+            createdAt: new Date()
         });
         // Task 6: Create JWT authentication if passwords match with user._id as payload
         const payload = {
             user: {
-                id: newUser.insertedId,
-            },
+                id: newUser.insertedId
+            }
         };
 
         const authtoken = jwt.sign(payload, JWT_SECRET);
@@ -61,7 +61,7 @@ router.post('/login', async (req, res) => {
         const theUser = await collection.findOne({ email: req.body.email });
         // Task 4: Check if the password matches the encrypted password and send appropriate message on mismatch
         if (theUser) {
-            let result = await bcryptjs.compare(req.body.password, theUser.password)
+            const result = await bcryptjs.compare(req.body.password, theUser.password)
             if (!result) {
                 logger.error('Passwords do not match');
                 return res.status(404).json({ error: 'Wrong pasword' });
@@ -71,10 +71,10 @@ router.post('/login', async (req, res) => {
             const userName = theUser.firstName;
             const userEmail = theUser.email;
             // Task 6: Create JWT authentication if passwords match with user._id as payload
-            let payload = {
+            const payload = {
                 user: {
-                    id: theUser._id.toString(),
-                },
+                    id: theUser._id.toString()
+                }
             };
             const authtoken = jwt.sign(payload, JWT_SECRET)
             res.json({ authtoken, userName, userEmail });
@@ -83,7 +83,6 @@ router.post('/login', async (req, res) => {
             logger.error('User not found');
             return res.status(404).json({ error: 'User not found' });
         }
-
     } catch (e) {
         logger.error(e);
         return res.status(500).send('Internal server error');
@@ -97,7 +96,6 @@ router.put('/update', async (req, res) => {
         logger.error('Validation errors in update request', errors.array());
         return res.status(400).json({ errors: errors.array() });
     }
-    
     try {
         // Task 3: Check if `email` is present in the header and throw an appropriate error message if it is not present
         const email = req.headers.email;
@@ -126,8 +124,8 @@ router.put('/update', async (req, res) => {
         // Task 7: Create JWT authentication with `user._id` as a payload using the secret key from the .env file
         const payload = {
             user: {
-                id: updatedUser._id.toString(),
-            },
+                id: updatedUser._id.toString()
+            }
         };
 
         const authtoken = jwt.sign(payload, JWT_SECRET);
