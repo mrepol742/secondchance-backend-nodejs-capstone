@@ -6,13 +6,14 @@ const pinoLogger = require('./logger');
 const secondChanceItemsRoutes = require('./routes/secondChanceItemsRoutes');
 const searchRoutes = require('./routes/searchRoutes');
 const authRoutes = require('./routes/authRoutes');
+const imageRoutes = require('./routes/imageRoutes');
 const connectToDatabase = require('./models/db');
 const {loadData} = require("./util/import-mongo/index");
 
 
 const app = express();
 app.use("*",cors());
-const port = 3060;
+const port = 3062;
 
 // Connect to MongoDB; we just do this one time
 connectToDatabase().then(() => {
@@ -38,6 +39,8 @@ app.use('/api/secondchance/items', secondChanceItemsRoutes);
 
 // Search API Task 2: add the searchRoutes to the server by using the app.use() method.
 app.use('/api/secondchance/search', searchRoutes);
+
+app.use('/images', imageRoutes);
 
 // Global Error Handler
 app.use((err, req, res, next) => {

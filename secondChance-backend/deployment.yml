@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: secondchanceapp
+  labels:
+    app: secondchanceapp
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: secondchanceapp
+  template:
+    metadata:
+      labels:
+        app: secondchanceapp
+    spec:
+      containers:
+      - name: secondchanceapp-container
+        image: us.icr.io/sn-labs-mrepol742/secondchanceapp
+        ports:
+        - containerPort: 3060
+      imagePullSecrets:
+      - name: icr
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: secondchance-app-service
+spec:
+  type: NodePort
+  ports:
+  - port: 80
+    targetPort: 3060
+    protocol: TCP
+  selector:
+    app: secondchanceapp

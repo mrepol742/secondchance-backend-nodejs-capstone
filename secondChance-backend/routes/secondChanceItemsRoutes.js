@@ -61,7 +61,6 @@ router.post('/', upload.single('file'), async (req, res, next) => {
 router.get('/:id', async (req, res, next) => {
     try {
         const id = req.params.id;
-        console.log(id)
         const db = await connectToDatabase();
         const collection = db.collection("secondChanceItems");
         const secondChanceItem = await collection.findOne({ id: id });
