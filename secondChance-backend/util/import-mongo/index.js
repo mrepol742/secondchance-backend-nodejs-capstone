@@ -18,7 +18,6 @@ async function loadData() {
     try {
         // Connect to the MongoDB client
         await client.connect();
-        console.log("Connected successfully to server");
 
         // database will be created if it does not exist
         const db = client.db(dbName);
@@ -42,8 +41,6 @@ async function loadData() {
         await client.close();
     }
 }
-
-loadData();
 
 module.exports = {
     loadData,

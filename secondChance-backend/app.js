@@ -8,6 +8,9 @@ const searchRoutes = require('./routes/searchRoutes');
 const authRoutes = require('./routes/authRoutes');
 const imageRoutes = require('./routes/imageRoutes');
 const connectToDatabase = require('./models/db');
+const { loadData } = require("./util/import-mongo/index")
+
+loadData();
 
 const app = express();
 app.use("*", cors());
